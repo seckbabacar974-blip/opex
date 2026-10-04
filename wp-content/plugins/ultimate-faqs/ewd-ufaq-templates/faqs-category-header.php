@@ -1,0 +1,18 @@
+<div id='ewd-ufaq-faq-category-<?php echo esc_attr( $this->get_category_slug() ); ?>' class='ewd-ufaq-faq-category'>
+	
+	<div class='ewd-ufaq-faq-category-title <?php echo ( $this->get_option( 'faq-category-toggle' ) ? 'ewd-ufaq-faq-category-title-toggle' : '' ); ?>' <?php echo ( $this->get_option( 'faq-category-toggle' ) ? 'tabindex="0"' : '' ); ?> >
+		
+		<<?php echo esc_attr( $this->get_option( 'styling-category-heading-type' ) ); ?> title="<?php echo esc_attr( sprintf( __( 'Click here to open %s', 'ultimate-faqs' ), $this->get_category_name() ) ); ?>">
+			<?php echo esc_html( $this->get_category_name() ); ?>
+			<?php if ( $this->get_option( 'group-by-category-count' ) ) { ?> <span>(<?php echo esc_html( $this->get_category_count( $this->current_category ) ); ?>)</span><?php } ?>
+		</<?php echo esc_attr( $this->get_option( 'styling-category-heading-type' ) ); ?>>
+
+		<?php if ( $this->display_category_toggle_symbol() ) { ?>
+			<div class='ewd-ufaq-category-post-margin-symbol <?php echo esc_attr( $this->get_color_block_shape() ); ?>'>
+      			<span ><?php echo esc_attr( $this->get_category_toggle_symbol() ); ?></span>
+      		</div>
+      	<?php } ?>
+	
+	</div>
+	
+	<div class='ewd-ufaq-faq-category-inner <?php echo ( $this->get_option( 'faq-category-toggle' ) ? 'ewd-ufaq-faq-category-body-hidden' : '' ); ?>' >

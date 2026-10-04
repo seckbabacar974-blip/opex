@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 300 100" class="bricks-shape-svg">
+  <g fill-rule="evenodd">
+    <path d="M150,100 C145.333333,74 128.666667,52.3333333 100,35 C71.3333333,17.6666667 38,6 0,1.56319402e-13 L150,1.56319402e-13 L150,100 Z" transform="matrix(1 0 0 -1 0 100)"/>
+    <path d="M300,100 C295.333333,74 278.666667,52.3333333 250,35 C221.333333,17.6666667 188,6 150,2.27373675e-13 L300,2.27373675e-13 L300,100 Z" transform="rotate(180 225 50)"/>
+  </g>
+</svg>

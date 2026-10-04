@@ -1,0 +1,329 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"Plugin Name v1.0.0\n"
+"Report-Msgid-Bugs-To: "
+"Webdeclic SAS "
+"<contact@webdeclic.com>\n"
+"POT-Creation-Date: "
+"2022-10-18 18:44+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: "
+"Webdeclic SAS "
+"<contact@webdeclic.com>\n"
+"Language-Team: Webdeclic "
+"SAS <contact@webdeclic."
+"com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit "
+"3.1.1\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: admin/class-settings.php:55
+msgid "Mentions Légales"
+msgstr ""
+
+#: admin/class-settings.php:63
+msgid "Mes informations"
+msgstr ""
+
+#: admin/class-settings.php:66
+msgid ""
+"Date de création des "
+"mentions légales"
+msgstr ""
+
+#: admin/class-settings.php:69
+msgid ""
+"Date de mise en vigueur"
+msgstr ""
+
+#: admin/class-settings.php:77
+msgid ""
+"Particulier ou société"
+msgstr ""
+
+#: admin/class-settings.php:80
+msgid ""
+"Êtes vous une société ?"
+msgstr ""
+
+#: admin/class-settings.php:86
+msgid "Société"
+msgstr ""
+
+#: admin/class-settings.php:89
+msgid "Nom de la société"
+msgstr ""
+
+#: admin/class-settings.php:92
+msgid "Exemple : Apple"
+msgstr ""
+
+#: admin/class-settings.php:96
+msgid "Forme sociale"
+msgstr ""
+
+#: admin/class-settings.php:99
+msgid ""
+"SAS, SARL, EURL, etc..."
+msgstr ""
+
+#: admin/class-settings.php:100
+msgid "Exemple : SAS"
+msgstr ""
+
+#: admin/class-settings.php:104
+msgid ""
+"Montant du capital social"
+msgstr ""
+
+#: admin/class-settings.php:108
+msgid "En euros"
+msgstr ""
+
+#: admin/class-settings.php:109
+msgid "Exemple : 1000"
+msgstr ""
+
+#: admin/class-settings.php:113
+msgid ""
+"Ville d'immatriculation "
+"au RCS"
+msgstr ""
+
+#: admin/class-settings.php:116
+#: admin/class-settings.php:124
+msgid "Exemple : Paris"
+msgstr ""
+
+#: admin/class-settings.php:120
+msgid ""
+"Numéro SIREN (c'est un "
+"numéro à 9 chiffres)"
+msgstr ""
+
+#: admin/class-settings.php:130
+msgid ""
+"Adresse complète du "
+"siège social"
+msgstr ""
+
+#: admin/class-settings.php:133
+#: admin/class-settings.php:183
+#: admin/class-settings.php:252
+msgid ""
+"Exemple : 1 Av. des "
+"Champs-Élysées 75008 "
+"Paris"
+msgstr ""
+
+#: admin/class-settings.php:134
+#: admin/class-settings.php:184
+msgid ""
+"N° et nom de la voie, "
+"code postal et ville"
+msgstr ""
+
+#: admin/class-settings.php:138
+#: admin/class-settings.php:188
+msgid "Numéro de téléphone"
+msgstr ""
+
+#: admin/class-settings.php:142
+#: admin/class-settings.php:192
+msgid ""
+"Exemple : +33612345678"
+msgstr ""
+
+#: admin/class-settings.php:146
+#: admin/class-settings.php:196
+msgid "Adresse e-mail"
+msgstr ""
+
+#: admin/class-settings.php:150
+#: admin/class-settings.php:200
+#: admin/class-settings.php:244
+msgid ""
+"Exemple : hello@exemple."
+"com"
+msgstr ""
+
+#: admin/class-settings.php:154
+msgid ""
+"Numéro de TVA "
+"intracommunautaire"
+msgstr ""
+
+#: admin/class-settings.php:157
+msgid ""
+"Exemple :  FR 32 "
+"123456789"
+msgstr ""
+
+#: admin/class-settings.php:161
+msgid ""
+"Nom et prénom du "
+"directeur de la "
+"publication"
+msgstr ""
+
+#: admin/class-settings.php:164
+msgid ""
+"Exemple :  Dupont Jean"
+msgstr ""
+
+#: admin/class-settings.php:170
+msgid "Particulier"
+msgstr ""
+
+#: admin/class-settings.php:173
+msgid ""
+"Nom et prénom de la "
+"personne en charge de "
+"l'édition et de la "
+"publication"
+msgstr ""
+
+#: admin/class-settings.php:176
+msgid ""
+"Exemple : Dupont Jean"
+msgstr ""
+
+#: admin/class-settings.php:180
+msgid ""
+"Adresse complète de "
+"domiciliation"
+msgstr ""
+
+#: admin/class-settings.php:206
+msgid "Votre hébergeur"
+msgstr ""
+
+#: admin/class-settings.php:209
+msgid ""
+"Dénomination sociale de "
+"l'hébergeur"
+msgstr ""
+
+#: admin/class-settings.php:212
+msgid "Exemple : OVH SAS"
+msgstr ""
+
+#: admin/class-settings.php:216
+msgid ""
+"Adresse du siège social "
+"de l'hébergeur"
+msgstr ""
+
+#: admin/class-settings.php:219
+msgid ""
+"Exemple : 2 rue "
+"Kellermann – BP 80157 "
+"59053 ROUBAIX CEDEX 1"
+msgstr ""
+
+#: admin/class-settings.php:223
+msgid ""
+"Numéro de téléphone de "
+"l'hébergeur"
+msgstr ""
+
+#: admin/class-settings.php:226
+msgid ""
+"Exemple : 09 72 10 10 07"
+msgstr ""
+
+#: admin/class-settings.php:232
+msgid "Collecte de données"
+msgstr ""
+
+#: admin/class-settings.php:235
+msgid ""
+"Le site internet "
+"collecte-il des données "
+"personnelles ?"
+msgstr ""
+
+#: admin/class-settings.php:240
+msgid ""
+"L'utilisateur peut "
+"modifier ou supprimer "
+"ces données par email"
+msgstr ""
+
+#: admin/class-settings.php:245
+#: admin/class-settings.php:253
+#: admin/class-settings.php:262
+#: admin/class-settings.php:271
+msgid ""
+"Laisser vide pour ne pas "
+"utiliser"
+msgstr ""
+
+#: admin/class-settings.php:249
+msgid ""
+"L'utilisateur peut "
+"modifier ou supprimer "
+"ces données par voie "
+"postale"
+msgstr ""
+
+#: admin/class-settings.php:257
+msgid ""
+"L'utilisateur peut "
+"modifier ou supprimer "
+"ces données par "
+"formulaire de contact"
+msgstr ""
+
+#: admin/class-settings.php:261
+msgid ""
+"Exemple : https://"
+"exemple.com/contact/"
+msgstr ""
+
+#: admin/class-settings.php:266
+msgid ""
+"L'utilisateur peut "
+"modifier ou supprimer "
+"ces données via l'espace "
+"personnel"
+msgstr ""
+
+#: admin/class-settings.php:270
+msgid ""
+"Exemple : https://"
+"exemple.com/my-account/"
+msgstr ""

@@ -1,0 +1,561 @@
+/*----------------------------------------*/
+/*  Lite vs Pro style
+/*----------------------------------------*/
+
+.sp-eab-pro-table-list {
+	ul {
+		border-radius: 6px;
+		overflow: hidden;
+		border: 1px solid #fae9e8;
+	}
+
+	.sp-eab-pro-table-row.sp-eab-header {
+		background: hsl(3deg 64% 95% / 75%);
+		// color: #fff;
+
+		.sp-eab-title {
+			// color: #fff;
+		}
+		.sp-eab-free{
+			border: none !important;
+		}
+		.sp-eab-pro-icon {
+			svg {
+				width: 18px;
+				margin-right: 5px;
+			}
+		}
+	}
+}
+
+.sp-eab-pro-page {
+
+	.sp-eab-settings-info {
+		padding: 0 !important;
+		width: auto;
+	}
+
+	a,
+	button {
+		transition: all 0.3s ease;
+		font-size: 16px;
+		line-height: 1.3;
+		font-weight: 500;
+	}
+
+	.sp-eab-pro-subtitle {
+		color: #2F2F2F;
+		font-size: 16px;
+		line-height: 22px;
+		margin-top: 4px;
+	}
+
+	.sp-eab-upgrade-to-pro-btn {
+		border-radius: 5px;
+		background: #02B472;
+		color: #FFFFFF;
+		display: flex;
+		padding: 14px 24px;
+		justify-content: center;
+		align-items: center;
+		height: 50px;
+		gap: 8px;
+
+		svg {
+			transform: scale(1.5);
+		}
+
+		&:hover {
+			background: #019E64;
+		}
+	}
+
+	.sp-eab-settings-info-text {
+		width: 400px !important;
+		text-align: left !important;
+		line-height: 1.3;
+		color: #3C434A;
+		background-color: #ffffff;
+		padding: 15px 20px;
+		font-size: 15px;
+
+		ul {
+			margin-top: 8px;
+			margin-left: 20px;
+		}
+
+		li {
+			list-style: disc;
+			margin-top: 4px;
+		}
+	}
+}
+
+.sp-eab-pro-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 6px;
+	background: #e8fbf4;
+	padding: 32px;
+	margin: 32px;
+
+	.sp-eab-upgrade-to-pro-btn {
+		font-weight: 700;
+	}
+}
+
+.sp-eab-pro-table {
+	border-radius: 12px;
+	background: #FFF;
+	box-shadow: 0 1px 2px 0 rgba(17, 17, 17, 0.06);
+	padding: 8px;
+	padding-bottom: 24px;
+
+	&-list {
+		padding: 0 32px;
+	}
+
+	&-row {
+		display: flex;
+		align-items: center;
+		height: 60px;
+		margin-bottom: 0;
+
+		&:nth-child(odd) {
+			background-color: #fae9e858;
+		}
+
+		&:not(:first-child) {
+			border-top: 1px solid transparent;
+		}
+
+		&.sp-eab-header {
+			height: 68px;
+
+			span {
+				font-weight: 600;
+			}
+			.sp-eab-pro {
+				color: var(--eab-primary-color);
+			}
+		}
+
+		>span {
+			flex: 1;
+			text-align: center;
+			font-size: 16px;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.sp-eab-free {
+			border-right: 1px solid #fae9e8;
+			border-left: 1px solid #fae9e8;
+		}
+
+		.sp-eab-title {
+			flex-basis: 70%;
+			width: 70%;
+			text-align: left;
+			justify-content: left;
+			display: flex;
+			align-items: center;
+			gap: 8px;
+			color: #00073A;
+			font-size: 16px;
+			padding-left: 32px;
+		}
+	}
+
+	.dashicons-no-alt,
+	.dashicons-saved {
+		font-size: 28px;
+		height: 28px;
+		width: 28px;
+		font-weight: 600;
+	}
+
+	.dashicons-saved {
+		color: #40CA8B;
+	}
+
+	.dashicons-no-alt {
+		color: #F76C63;
+	}
+
+	.sp-eab-hot,
+	.sp-eab-new {
+		display: inline-block;
+		background: #edfaef;
+		color: #00753a;
+		border: 1px solid #9ad7b9;
+		font-size: 10px;
+		text-align: center;
+		border-radius: 40px;
+		font-style: normal;
+		font-weight: 600;
+		text-transform: uppercase;
+		padding: 0 8px;
+	}
+
+	.sp-eab-hot {
+		background-color: #fcf0f1;
+		color: #d63638;
+		border: 1px solid #e99899;
+	}
+}
+
+.sp-eab-upgrade-to-pro-promotion {
+	text-align: center;
+	margin: auto;
+	max-width: 750px;
+	margin-top: 60px;
+
+	.sp-eab-section-subtitle {
+		margin: 18px 0 24px 0;
+		display: inline-block;
+		font-size: 16px;
+		line-height: 22px;
+	}
+}
+
+.sp-eab-pro-page {
+	.sp-eab-section-title {
+		font-size: 22px;
+		font-weight: 600;
+		line-height: 28px;
+		color: #1d2327;
+		margin: 0;
+	}
+
+	.sp-eab-upgrade-to-pro-promotion {
+		.sp-eab-section-title {
+			font-size: 28px;
+		}
+	}
+}
+
+.sp-eab-upgrade-to-pro-btn-wrapper {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+
+	.sp-eab-upgrade-to-pro-btn {
+		&:nth-child(2) {
+			border: 1px solid #F26C0D;
+			background: #FFF;
+			color: #F26C0D;
+
+			&:hover {
+				background: #F26C0D;
+				color: #FFF;
+			}
+		}
+
+		&:nth-child(3) {
+			border: 1px solid #757575;
+			background: #FFF;
+			color: #2F2F2F;
+			&:hover {
+				background: #757575;
+				color: #FFF;
+			}
+		}
+	}
+}
+
+.sp-eab-pro-page .sp-eab-pro-wrap {
+	padding: 40px;
+	background: #fff;
+	border-radius: 8px;
+}
+
+.sp-eab-pro-page .sp-eab-features {
+	border-radius: 6px;
+	border: 1px solid #CCCCCC;
+	overflow: hidden;
+}
+
+.sp-eab-pro-page .sp-eab-upgrade-to-pro .sp-eab-upgrade-to-pro-btn {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 15px;
+}
+
+.sp-eab-pro-page .sp-eab-upgrade-to-pro .sp-eab-upgrade-to-pro-btn .sp-eab-action-btn span {
+	display: block;
+	font-size: 11px;
+	// ----------------------------------------
+	// SCSS Variables
+	// ----------------------------------------
+	color: inherit;
+	text-decoration: underline dotted;
+	transition: .2s linear;
+	// ----------------------------------------
+	// SCSS Mixins
+	// ----------------------------------------
+	color: #e36105;
+}
+
+// ----------------------------------------
+// Testimonial Section Styles
+// ----------------------------------------
+.sp-eab-testimonial {
+	margin-top: 60px;
+
+	.sp-eab-testimonial-header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 16px;
+		padding-top: 28px;
+		margin-bottom: 50px;
+
+		.sp-eab-testimonial-ratings {
+			display: flex;
+			gap: 16px;
+
+			.sp-eab-testimonial-rating-item {
+				display: flex;
+				align-items: center;
+				gap: 8px;
+
+				.sp-eab-testimonial-rating-wordpress {
+					display: flex;
+					align-items: center;
+					gap: 8px;
+
+					.sp-eab-wp-mark {
+						width: 20px;
+						height: 20px;
+						border-radius: 4px;
+						color: #fff;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						font-weight: 700;
+						font-size: 14px;
+					}
+
+					.sp-eab-wp-text {
+						color: #444c50;
+						font-weight: 500;
+						font-size: 14px;
+						display: flex;
+					}
+				}
+
+				.sp-eab-testimonial-rating-trustpilot {
+					width: 20px;
+					height: 20px;
+
+					.sp-eab-trustpilot-mark {
+						color: #00b57a;
+						font-size: 20px;
+					}
+				}
+
+				.sp-eab-trustpilot-stars {
+					color: #fff;
+					font-size: 14px;
+					display: flex;
+					gap: 2px;
+
+					svg {
+						background-color: #00b57a;
+						padding: 2px;
+						width: 10px;
+						height: 10px;
+					}
+				}
+
+				.sp-eab-testimonial-rating-score {
+					color: #444c50;
+					font-weight: 600;
+					font-size: 16px;
+				}
+
+				.sp-eab-testimonial-review-count {
+					color: #575f62;
+					font-weight: 500;
+					font-size: 14px;
+				}
+			}
+		}
+
+		.sp-eab-testimonial-title {
+			font-size: 28px;
+			font-weight: 600;
+			line-height: 28px;
+			color: #2f2f2f;
+			margin: 0;
+		}
+	}
+
+	.sp-eab-testimonial-wrap {
+		display: flex;
+		gap: 24px;
+	}
+}
+
+.sp-eab-testimonial-card {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 16px;
+	padding: 32px;
+	flex: 1;
+	min-width: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: flex-start;
+
+	.sp-eab-testimonial-card-header {
+		.sp-eab-testimonial-reviewer {
+			display: flex;
+			gap: 12px;
+			align-items: center;
+
+			.sp-eab-testimonial-avatar {
+				position: relative;
+				width: 60px;
+				height: 60px;
+				flex-shrink: 0;
+
+				img {
+					width: 60px;
+					height: 60px;
+					border-radius: 99px;
+					object-fit: cover;
+				}
+
+				.sp-eab-testimonial-source-badge {
+					position: absolute;
+					bottom: 0;
+					right: 0;
+					width: 24px;
+					height: 24px;
+					background: #fff;
+					border-radius: 50%;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					padding: 1px;
+					box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+
+					span {
+						width: 16px;
+						height: 16px;
+						background: #1e1e1e;
+						border-radius: 4px;
+						color: #fff;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						font-weight: 700;
+						font-size: 10px;
+					}
+				}
+			}
+
+			.sp-eab-testimonial-reviewer-info {
+				display: flex;
+				flex-direction: column;
+				gap: 4px;
+
+				h3 {
+					font-size: 16px;
+					font-weight: 500;
+					color: #1e1e1e;
+					margin: 0;
+				}
+
+				p {
+					font-size: 14px;
+					color: #757575;
+					margin: 0;
+				}
+			}
+		}
+	}
+
+	.sp-eab-testimonial-rating-stars {
+		display: flex;
+		justify-content: flex-start;
+		gap: 2px;
+		align-items: center;
+
+		span {
+			color: #F4674D;
+			font-size: 16px;
+			display: flex;
+			gap: 2px;
+		}
+
+		// Trustpilot stars styling
+		.sp-eab-testimonial-rating-trustpilot-stars {
+			display: flex;
+			gap: 2px;
+			align-items: center;
+
+			.sp-eab-trustpilot-star-item {
+				background-color: #00b57a;
+				padding: 1.5px;
+				border-radius: 2px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 11px;
+				height: 11px;
+				flex-shrink: 0;
+
+				svg {
+					width: 10px;
+					height: 10px;
+				}
+			}
+		}
+	}
+
+	.sp-eab-testimonial-card-content {
+		p {
+			font-size: 15px;
+			line-height: 24px;
+			color: #1e1e1e;
+			margin: 0;
+		}
+	}
+
+	// Trustpilot card specific styles
+	&.sp-eab-testimonial-card-trustpilot {
+		.sp-eab-testimonial-avatar {
+			// Yellow background for Trustpilot initials
+			.sp-eab-testimonial-avatar-initials {
+				width: 60px;
+				height: 60px;
+				border-radius: 99px;
+				background-color: #fff7c4;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-weight: 500;
+				font-size: 22px;
+				color: #000;
+			}
+		}
+
+		.sp-eab-testimonial-source-badge {
+			svg {
+				color: #00b57a;
+			}
+		}
+	}
+}
+
+.sp-eab-pro-page .sp-eab-recommended-plugins {
+	overflow: hidden;
+}
